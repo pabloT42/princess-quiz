@@ -1,0 +1,181 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+
+    //pablos movie quiz
+         //sept 19th, 2024
+         //this is a quiz that tells you what studio ghibli movie to watch
+
+          //variables to hold each princess score
+    int spiritedaway = 0;
+    int myneighbortotoro = 0;
+    int ponyo = 0;
+    int howlsmovingcastle = 0;
+
+    //answer = input("whats your favorite color? (brown, blue, red, green")
+
+            //split the input line in to a cout and cin statements, set up answer as a string variable
+    string answer;
+    cout << "whats your favorite color( brown, blue, red, green" << endl;
+    cin >> answer;
+
+
+
+    if (answer == "brown")
+        spiritedaway += 1;
+    else if (answer == "blue")
+        myneighbortotoro += 1;
+    else if (answer == "red")
+        ponyo += 1;
+    else if (answer == "green")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "where would you rather live? town, countryside, seaside, forest" << endl;
+    cin >> answer;
+
+    if (answer == "town")
+        spiritedaway += 1;
+    else if (answer == "countryside")
+        myneighbortotoro += 1;
+    else if (answer == "seaside")
+        ponyo += 1;
+    else if (answer == "forest")
+        howlsmovingcastle += 1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what would you rather eat? peachbuns, bentobox, ramen, eggs-bacon" << endl;
+    cin >> answer;
+
+    if (answer == "peachbuns")
+        spiritedaway += 1;
+    else if (answer == "bentobox")
+        myneighbortotoro += 1;
+    else if (answer == "ramen")
+        ponyo += 1;
+    else if (answer == "eggs-bacon")
+        howlsmovingcastle += 1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what pet would you rather have? (dragon, bird, cat, fish" << endl;
+    cin >> answer;
+
+    if (answer == "dragon")
+        spiritedaway += 1;
+    else if (answer == "cat")
+        myneighbortotoro += 1;
+    else if (answer == "fish")
+        ponyo += 1;
+    else if (answer == "bird")
+        howlsmovingcastle += 1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what is your favorite weather? (perfect-tempature, slightly-cold, sunny-windy-day, clear-sunny-day" << endl;
+    cin >> answer;
+
+    if (answer == "perfect-tempature")
+        spiritedaway += 1;
+    else if (answer == "slightly-cold")
+        myneighbortotoro += 1;
+    else if (answer == "clear-sunny-day")
+        ponyo = +1;
+    else if (answer == "sunny-windy-day")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what season do you like the most? (summer, fall, spring, winter" << endl;
+    cin >> answer;
+
+    if (answer == "fall")
+        spiritedaway += 1;
+    else if (answer == "winter")
+        myneighbortotoro += 1;
+    else if (answer == "summer")
+        ponyo = +1;
+    else if (answer == "spring")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what would you rather do? (swim, explore-a-forest, go-around-a-town, play-with-cats" << endl;
+    cin >> answer;
+
+    if (answer == "go-around-a-town")
+        spiritedaway += 1;
+    else if (answer == "play-with-cats")
+        myneighbortotoro += 1;
+    else if (answer == "swim")
+        ponyo = +1;
+    else if (answer == "explore-a-forest")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what is your favorite time of day? (morning, evening, noon, night" << endl;
+    cin >> answer;
+
+    if (answer == "noon")
+        spiritedaway += 1;
+    else if (answer == "night")
+        myneighbortotoro += 1;
+    else if (answer == "evening")
+        ponyo = +1;
+    else if (answer == "morning")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+
+    cout << "what would you rather drink? (mocha, tea, hothoneymilk, orangejuce" << endl;
+    cin >> answer;
+
+    if (answer == "mocha")
+        spiritedaway += 1;
+    else if (answer == "tea")
+        myneighbortotoro += 1;
+    else if (answer == "hothoneymilk")
+        ponyo = +1;
+    else if (answer == "orangejuice")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+    cout << "what animal would you be? (bird, fish, cat, dragon" << endl;
+    cin >> answer;
+
+    if (answer == "dragon")
+        spiritedaway += 1;
+    else if (answer == "cat")
+        myneighbortotoro += 1;
+    else if (answer == "fish")
+        ponyo = +1;
+    else if (answer == "bird")
+        howlsmovingcastle = +1;
+    else
+        cout << "sorry not an option" << endl;
+
+
+    if (spiritedaway >= howlsmovingcastle and spiritedaway >= myneighbortotoro and spiritedaway >= ponyo)
+        cout << ("Watch spirited away!!");
+
+    else if (howlsmovingcastle >= myneighbortotoro and howlsmovingcastle >= ponyo)
+        cout << ("Watch howls moving castle!") << endl;
+
+    else if (myneighbortotoro >= ponyo)
+        cout << ("Watch my neighbor totoro!") << endl;
+
+    else
+        cout << ("watch ponyo!") << endl;
+
+
+
+
+
+}
+
